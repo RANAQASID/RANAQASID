@@ -1,0 +1,454 @@
+<html>
+    <head>
+        <title>LOGIN</title>
+        <style type="text/css">
+            body{
+                margin: 0px;
+                padding: 0px;
+            }
+            @media (max-width:1440px){
+            .fristForm{
+                margin: 0px;
+                background-color:aquamarine;
+                border: 2px;
+                border-style: solid;
+                width: 70%;
+                height: 53%;
+                border-color: black;
+            }
+                #fristNameP{
+                    font-family: sans-serif;
+                    font-size: 20px;
+                    margin-left: 3%;
+                }
+                #fristName{
+                    position: absolute;
+                   top: 14px;
+                    width: 500px;
+                    margin-left: 16%;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blueviolet;
+                    border-style: double;
+                    border-radius: 99999px;
+                }
+                #secondNameP{
+                    
+                    font-size: 20px;
+                    margin-left: 3%;
+                    font-family: sans-serif;
+                }
+                #secondName{
+                    position: absolute;
+                    top: 60px;
+                    margin-left: 16%;
+                    width: 500px;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blueviolet;
+                    border-style: double;
+                    border-radius: 99999px;
+                }
+                #emailInput{
+                    position: absolute;
+                    margin-left: 16%;
+                    top: 115px;
+                    width: 500px;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:dotted;
+                    border-radius: 99999px;
+                }
+                #pswd{
+                    position: absolute;
+                    top: 160px;
+                    margin-left: 16%;
+                    width: 500px;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:dotted;
+                    border-radius: 99999px;
+                }
+                #submitButton{
+                    position: absolute;
+                    top: 280px;
+                    width: 39%;
+                    height: 40px;
+                    margin-left: 14%;
+                    border: 3px;
+                    border-color: black;
+                    border-style:dashed;
+                    border-radius: 99999px;
+                }
+                .secondForm{
+                    width: 70%;
+                    height: 100px;
+                    background-color: burlywood;
+                     border: 2px;
+                border-style: solid;
+                    border-color: blue;
+                }
+                .photoFile{
+                    position: absolute;
+                    top:205px ;
+                    width: 300px;
+                    margin-left: 16%;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:dotted;
+                    border-radius: 99999px;
+                }
+                .emailPara{
+                    font-size: 20px;
+                    margin-left: 2.2%;
+                    top: 100px;
+                    position: absolute;
+                }
+                .passwordPara{
+                    font-size: 20px;
+                    margin-left: 2.2%;
+                    top: 150px;
+                    position: absolute;
+                }
+                #photoPara{
+                    font-size: 20px;
+                    margin-left: 2.2%;
+                    top: 190px;
+                    position: absolute;
+                }
+            }
+            @media (max-width:1050px){
+            .fristForm{
+                margin: 0px;
+                background-color:aquamarine;
+                border: 2px;
+                border-style: solid;
+                width: 70%;
+                height: 53%;
+                border-color: black;
+            }
+                #fristNameP{
+                    font-family: sans-serif;
+                    font-size: 15px;
+                    margin-left: 3%;
+                }
+                #fristName{
+                    position: absolute;
+                   top: 14px;
+                    width: 300px;
+                    margin-left:15%;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blueviolet;
+                    border-style: double;
+                    border-radius: 99999px;
+                }
+                #secondNameP{
+                    position: absolute;
+                    top: 55px;
+                    font-size: 15px;
+                    margin-left: 2%;
+                    font-family: sans-serif;
+                }
+                #secondName{
+                    position: absolute;
+                    top: 60px;
+                    margin-left: 15%;
+                    width: 300px;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blueviolet;
+                    border-style: double;
+                    border-radius: 99999px;
+                }
+                #emailInput{
+                    position: absolute;
+                    margin-left: 15%;
+                    top: 105px;
+                    width: 300px;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:dotted;
+                    border-radius: 99999px;
+                }
+                #pswd{
+                    position: absolute;
+                    top: 160px;
+                    margin-left: 15%;
+                    width: 300px;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:dotted;
+                    border-radius: 99999px;
+                }
+                #submitButton{
+                    position: absolute;
+                    top: 280px;
+                    width: 300px;
+                    height: 40px;
+                    margin-left: 15%;
+                    border: 3px;
+                    border-color: black;
+                    border-style:solid;
+                    border-radius: 99999px;
+                }
+                .secondForm{
+                    width: 70%;
+                    height: 100px;
+                    background-color: burlywood;
+                     border: 2px;
+                border-style: solid;
+                    border-color: blue;
+                }
+                .photoFile{
+                    position: absolute;
+                    top:205px ;
+                    width: 300px;
+                    margin-left: 15%;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:double;
+                    border-radius: 99999px;
+                }
+            }
+            @media (max-width:768px){
+            .fristForm{
+                margin: 0px;
+                background-color:aquamarine;
+                border: 2px;
+                border-style: solid;
+                width: 70%;
+                height: 53%;
+                border-color: black;
+            }
+                #fristNameP{
+                    position: absolute;
+                    top: 9px;
+                    font-family: sans-serif;
+                    font-size: 13px;
+                    margin-left: 2%;
+                }
+                #fristName{
+                    position: absolute;
+                   top: 14px;
+                    width: 46%;
+                    margin-left:23%;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blueviolet;
+                    border-style: double;
+                    border-radius: 99999px;
+                }
+                #secondNameP{
+                    position: absolute;
+                    top: 55px;
+                    font-size: 88%;
+                    margin-left: 2%;
+                    font-family: sans-serif;
+                }
+                #secondName{
+                    position: absolute;
+                    top: 60px;
+                    margin-left: 23%;
+                    width: 46%;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blueviolet;
+                    border-style: double;
+                    border-radius: 99999px;
+                }
+                #emailInput{
+                    position: absolute;
+                    margin-left: 23%;
+                    top: 105px;
+                    width: 46%;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:dotted;
+                    border-radius: 99999px;
+                }
+                #pswd{
+                    position: absolute;
+                    top: 160px;
+                    margin-left: 23%;
+                    width: 46%;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:dotted;
+                    border-radius: 99999px;
+                }
+                #submitButton{
+                    position: absolute;
+                    top: 280px;
+                    width: 46%;
+                    height: 40px;
+                    margin-left: 23%;
+                    border: 3px;
+                    border-color: black;
+                    border-style:solid;
+                    border-radius: 99999px;
+                }
+                .secondForm{
+                    width: 70%;
+                    height: 100px;
+                    background-color: burlywood;
+                     border: 2px;
+                border-style: solid;
+                    border-color: blue;
+                }
+                .photoFile{
+                    position: absolute;
+                    top:205px ;
+                    width: 46%;
+                    margin-left: 23%;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:double;
+                    border-radius: 99999px;
+                }
+            }
+            @media (max-width:440px){
+            .fristForm{
+                margin: 0px;
+                background-color:aquamarine;
+                border: 2px;
+                border-style: solid;
+                width: 70%;
+                height: 53%;
+                border-color: black;
+            }
+                #fristNameP{
+                    position: absolute;
+                    top: 9px;
+                    font-family: sans-serif;
+                    font-size: 12px;
+                    margin-left: 1%;
+                }
+                #fristName{
+                    position: absolute;
+                   top: 14px;
+                    width: 44%;
+                    margin-left:25%;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blueviolet;
+                    border-style: double;
+                    border-radius: 99999px;
+                }
+                #secondNameP{
+                    position: absolute;
+                    top: 55px;
+                    font-size: 12px;
+                    margin-left: 1%;
+                    font-family: sans-serif;
+                }
+                #secondName{
+                    position: absolute;
+                    top: 60px;
+                    margin-left: 25%;
+                    width: 44%;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blueviolet;
+                    border-style: double;
+                    border-radius: 99999px;
+                }
+                #emailInput{
+                    position: absolute;
+                    margin-left: 25%;
+                    top: 105px;
+                    width: 44%;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:dotted;
+                    border-radius: 99999px;
+                }
+                #pswd{
+                    position: absolute;
+                    top: 160px;
+                    margin-left: 25%;
+                    width: 44%;
+                    height: 40px;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:dotted;
+                    border-radius: 99999px;
+                }
+                #submitButton{
+                    position: absolute;
+                    top: 280px;
+                    width: 44%;
+                    height: 40px;
+                    margin-left: 25%;
+                    border: 3px;
+                    border-color: black;
+                    border-style:solid;
+                    border-radius: 99999px;
+                }
+                .secondForm{
+                    width: 70%;
+                    height: 100px;
+                    background-color: burlywood;
+                     border: 2px;
+                border-style: solid;
+                    border-color: blue;
+                }
+                .photoFile{
+                    position: absolute;
+                    top:205px ;
+                    width: 44%;
+                    margin-left: 25%;
+                    border: 3px;
+                    border-color: blue;
+                    border-style:double;
+                    border-radius: 99999px;
+                }
+                 .emailPara{
+                    font-size: 12px;
+                    margin-left:1%;
+                    top: 100px;
+                    position: absolute;
+                }
+                .passwordPara{
+                    font-size: 12px;
+                    margin-left: 1%;
+                    top: 150px;
+                    position: absolute;
+                }
+                #photoPara{
+                    font-size: 12px;
+                    margin-left: 1%;
+                    top: 190px;
+                    position: absolute;
+                }
+            }
+            @media (min-width:320px){
+               
+            }
+            
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="background-color: gainsboro">
+        <form class="fristForm">
+            <p id="fristNameP">Frist Name:</p>
+            <input id="fristName" type="text" placeholder="Enter Your Frist Name">
+            <p id="secondNameP">Second Name:</p>
+            <input id="secondName" type="text" placeholder="Enter Your Second Name"><br><p class="emailPara">Email:</p>
+            <input id="emailInput" type="email" placeholder="Your Email Address" required><br><p class="passwordPara">Password:</p>
+            <input id="pswd" type="password" placeholder="PASSWORD" min="6"><br>            <input id="submitButton" type="submit" value="submit">
+        </form>
+        <form class="secondForm"><p id="photoPara">Photo:</p>
+           <input type="file" class="photoFile">
+        </form>
+        
+
+    </body>
+</html>

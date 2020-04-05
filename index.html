@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>RQA PROUDS</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+        function homeClick()
+        {
+           window.location="index.html"
+        }
+            function contactClick()
+            {
+                window.location="contact.html"
+            }
+            function aboutClick()
+            {
+                window.location="about.html"
+            }
+            function carsClick(){
+                window.location="cars.html"
+            }
+            function othersClick(){
+                window.location="others.html"
+            }
+    </script>
+    </head>
+    <body>
+        <nav class="topMostBar">
+           <div class="fristDiv">
+               
+            <img src="1.jpg" style="width: 58px;height:40px;">
+            <i class="topMostHeading">TOP SHOW STORE</i>
+               <ul>
+                   <li onclick="homeClick()">HOME</li>
+                   <li onclick="contactClick()">CONTACT</li>
+                   <li onclick="aboutClick()">ABOUT</li>
+               </ul>
+               
+            </div>
+        </nav>
+        <nav class="blueLineNav"></nav>
+        <div class="secondDiv">
+        <marquee class="fristMarquee">RQA PROUDS PRODUCTION</marquee>
+        </div>
+        <div class="thirdDiv">
+            <b style="color: darkblue;font-family: cursive;font-size: 22;position: absolute;top: 10%;margin-left: 18%;">WHAT'S NEW</b>
+            <p><!--write any thing which is new on market--></p>
+        </div>
+        <div class="fourthDiv">
+            <b  style="font-family: cursive;color: darkblue;font-size: 22;position: absolute;top: 10%;margin-left: 39%">SALES</b>
+            <p><!--write any thing which have a sale on it--></p>
+        </div>
+        <div class="fivthDiv">
+            <img src="1%20(27).jpg" onclick="carsClick()" class="fristImgInFivthDiv">
+            <input class="fristButtonInFivthDiv" type="button" value="CARS" onclick="carsClick()">
+            <b class="copyrightPara">copyright &copy; all right reserved</b>
+            <img src="2 (23).jpg" class="secondImgInFivthDiv" onclick="othersClick()">
+            <input class="secondbuttonInFivthDiv" type="button" value="Unique" onclick="othersClick()">
+        </div>
+    </body>
+</html>
